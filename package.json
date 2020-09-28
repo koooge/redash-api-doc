@@ -4,7 +4,7 @@
   "description": "redash API doc",
   "scripts": {
     "build": "redoc-cli bundle redash-spec.yaml -o index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "swagger-cli validate redash-spec.yaml"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/koooge/redash-api-doc#readme",
   "devDependencies": {
-    "redoc-cli": "^0.9.12"
+    "redoc-cli": "^0.9.12",
+    "swagger-cli": "^4.0.4"
   }
 }
