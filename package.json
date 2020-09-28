@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "redash API doc",
   "scripts": {
-    "build": "redoc-cli bundle redash-spec.yaml -o index.html",
+    "build": "redoc-cli bundle redash-spec.yaml -o build/index.html",
     "test": "swagger-cli validate redash-spec.yaml"
   },
   "repository": {
