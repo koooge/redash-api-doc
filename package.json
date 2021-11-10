@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/koooge/redash-api-doc#readme",
   "devDependencies": {
-    "redoc-cli": "^0.9.12",
+    "redoc-cli": "^0.13.0",
     "swagger-cli": "^4.0.4"
   }
 }
