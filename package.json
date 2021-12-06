@@ -4,11 +4,11 @@
   "description": "redash API doc",
   "scripts": {
     "build": "redoc-cli bundle redash-spec.yaml -o build/index.html",
-    "test": "swagger-cli validate redash-spec.yaml"
+    "lint": "spectral lint redash-spec.yaml"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/koooge/redash-api-doc.git"
+    "url": "git+https://github.com/koooge/redash-api-doc.git"
   },
   "author": "koooge <koooooge@gmail.com>",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/koooge/redash-api-doc#readme",
   "devDependencies": {
-    "redoc-cli": "^0.13.0",
-    "swagger-cli": "^4.0.4"
+    "@stoplight/spectral-cli": "^6.1.0",
+    "redoc-cli": "^0.13.1"
   }
 }
