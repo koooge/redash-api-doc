@@ -19,5 +19,9 @@
   "devDependencies": {
     "@stoplight/spectral-cli": "^6.5.1",
     "redoc-cli": "^0.13.20"
+  },
+  "engines": {
+    "node": ">= 16",
+    "npm": ">= 8"
   }
 }
