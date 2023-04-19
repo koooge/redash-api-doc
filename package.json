@@ -18,7 +18,7 @@
   "homepage": "https://github.com/koooge/redash-api-doc#readme",
   "devDependencies": {
     "@stoplight/spectral-cli": "^6.6.0",
-    "redoc-cli": "^0.13.20"
+    "redoc-cli": "^0.13.21"
   },
   "engines": {
     "node": ">= 16",
